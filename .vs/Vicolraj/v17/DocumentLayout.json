@@ -1,0 +1,293 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Documents\\Projects\\Web Assembly Projects\\Vicolraj\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8A135D00-B6AF-4436-A9A7-C8422705BC3D}|FutaQuiz.csproj|c:\\users\\user\\documents\\projects\\web assembly projects\\vicolraj\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A135D00-B6AF-4436-A9A7-C8422705BC3D}|FutaQuiz.csproj|solutionrelative:pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A135D00-B6AF-4436-A9A7-C8422705BC3D}|FutaQuiz.csproj|c:\\users\\user\\documents\\projects\\web assembly projects\\vicolraj\\pages\\home.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{8A135D00-B6AF-4436-A9A7-C8422705BC3D}|FutaQuiz.csproj|solutionrelative:pages\\home.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A135D00-B6AF-4436-A9A7-C8422705BC3D}|FutaQuiz.csproj|c:\\users\\user\\documents\\projects\\web assembly projects\\vicolraj\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A135D00-B6AF-4436-A9A7-C8422705BC3D}|FutaQuiz.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A135D00-B6AF-4436-A9A7-C8422705BC3D}|FutaQuiz.csproj|c:\\users\\user\\documents\\projects\\web assembly projects\\vicolraj\\futaquiz.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8A135D00-B6AF-4436-A9A7-C8422705BC3D}|FutaQuiz.csproj|solutionrelative:futaquiz.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\AppData\\Local\\Temp\\.vsdbgsrc\\44aa595dc2a1078aa662bebf92f46ec0aa83d37961bfc5ec1f12f1b995219153\\AddressBinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A135D00-B6AF-4436-A9A7-C8422705BC3D}|FutaQuiz.csproj|c:\\users\\user\\documents\\projects\\web assembly projects\\vicolraj\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{8A135D00-B6AF-4436-A9A7-C8422705BC3D}|FutaQuiz.csproj|solutionrelative:wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A135D00-B6AF-4436-A9A7-C8422705BC3D}|FutaQuiz.csproj|c:\\users\\user\\documents\\projects\\web assembly projects\\vicolraj\\questions\\phy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A135D00-B6AF-4436-A9A7-C8422705BC3D}|FutaQuiz.csproj|solutionrelative:questions\\phy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A135D00-B6AF-4436-A9A7-C8422705BC3D}|FutaQuiz.csproj|c:\\users\\user\\documents\\projects\\web assembly projects\\vicolraj\\questions\\bio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A135D00-B6AF-4436-A9A7-C8422705BC3D}|FutaQuiz.csproj|solutionrelative:questions\\bio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A135D00-B6AF-4436-A9A7-C8422705BC3D}|FutaQuiz.csproj|c:\\users\\user\\documents\\projects\\web assembly projects\\vicolraj\\questions\\che.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A135D00-B6AF-4436-A9A7-C8422705BC3D}|FutaQuiz.csproj|solutionrelative:questions\\che.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A135D00-B6AF-4436-A9A7-C8422705BC3D}|FutaQuiz.csproj|c:\\users\\user\\documents\\projects\\web assembly projects\\vicolraj\\questions\\mts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A135D00-B6AF-4436-A9A7-C8422705BC3D}|FutaQuiz.csproj|solutionrelative:questions\\mts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A135D00-B6AF-4436-A9A7-C8422705BC3D}|FutaQuiz.csproj|c:\\users\\user\\documents\\projects\\web assembly projects\\vicolraj\\questions\\csc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A135D00-B6AF-4436-A9A7-C8422705BC3D}|FutaQuiz.csproj|solutionrelative:questions\\csc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A135D00-B6AF-4436-A9A7-C8422705BC3D}|FutaQuiz.csproj|c:\\users\\user\\documents\\projects\\web assembly projects\\vicolraj\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A135D00-B6AF-4436-A9A7-C8422705BC3D}|FutaQuiz.csproj|solutionrelative:_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A135D00-B6AF-4436-A9A7-C8422705BC3D}|FutaQuiz.csproj|c:\\users\\user\\documents\\projects\\web assembly projects\\vicolraj\\questions\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A135D00-B6AF-4436-A9A7-C8422705BC3D}|FutaQuiz.csproj|solutionrelative:questions\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A135D00-B6AF-4436-A9A7-C8422705BC3D}|FutaQuiz.csproj|c:\\users\\user\\documents\\projects\\web assembly projects\\vicolraj\\pages\\quiz.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A135D00-B6AF-4436-A9A7-C8422705BC3D}|FutaQuiz.csproj|solutionrelative:pages\\quiz.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A135D00-B6AF-4436-A9A7-C8422705BC3D}|FutaQuiz.csproj|c:\\users\\user\\documents\\projects\\web assembly projects\\vicolraj\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A135D00-B6AF-4436-A9A7-C8422705BC3D}|FutaQuiz.csproj|solutionrelative:wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A135D00-B6AF-4436-A9A7-C8422705BC3D}|FutaQuiz.csproj|c:\\users\\user\\documents\\projects\\web assembly projects\\vicolraj\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A135D00-B6AF-4436-A9A7-C8422705BC3D}|FutaQuiz.csproj|solutionrelative:layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A135D00-B6AF-4436-A9A7-C8422705BC3D}|FutaQuiz.csproj|c:\\users\\user\\documents\\projects\\web assembly projects\\vicolraj\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{8A135D00-B6AF-4436-A9A7-C8422705BC3D}|FutaQuiz.csproj|solutionrelative:layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Projects\\Web Assembly Projects\\Vicolraj\\wwwroot\\css\\app.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\app.css",
+              "ToolTip": "C:\\Users\\User\\Documents\\Projects\\Web Assembly Projects\\Vicolraj\\wwwroot\\css\\app.css",
+              "RelativeToolTip": "wwwroot\\css\\app.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-08T17:24:13.057Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Home.razor.css",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Projects\\Web Assembly Projects\\Vicolraj\\Pages\\Home.razor.css",
+              "RelativeDocumentMoniker": "Pages\\Home.razor.css",
+              "ToolTip": "C:\\Users\\User\\Documents\\Projects\\Web Assembly Projects\\Vicolraj\\Pages\\Home.razor.css",
+              "RelativeToolTip": "Pages\\Home.razor.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-26T13:25:19.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Projects\\Web Assembly Projects\\Vicolraj\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Projects\\Web Assembly Projects\\Vicolraj\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T13:12:46.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FutaQuiz.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Projects\\Web Assembly Projects\\Vicolraj\\FutaQuiz.csproj",
+              "RelativeDocumentMoniker": "FutaQuiz.csproj",
+              "ToolTip": "C:\\Users\\User\\Documents\\Projects\\Web Assembly Projects\\Vicolraj\\FutaQuiz.csproj",
+              "RelativeToolTip": "FutaQuiz.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-26T13:05:35.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PHY.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Projects\\Web Assembly Projects\\Vicolraj\\Questions\\PHY.cs",
+              "RelativeDocumentMoniker": "Questions\\PHY.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Projects\\Web Assembly Projects\\Vicolraj\\Questions\\PHY.cs",
+              "RelativeToolTip": "Questions\\PHY.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T14:49:33.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BIO.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Projects\\Web Assembly Projects\\Vicolraj\\Questions\\BIO.cs",
+              "RelativeDocumentMoniker": "Questions\\BIO.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Projects\\Web Assembly Projects\\Vicolraj\\Questions\\BIO.cs",
+              "RelativeToolTip": "Questions\\BIO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T14:49:14.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CHE.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Projects\\Web Assembly Projects\\Vicolraj\\Questions\\CHE.cs",
+              "RelativeDocumentMoniker": "Questions\\CHE.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Projects\\Web Assembly Projects\\Vicolraj\\Questions\\CHE.cs",
+              "RelativeToolTip": "Questions\\CHE.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T14:48:08.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MTS.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Projects\\Web Assembly Projects\\Vicolraj\\Questions\\MTS.cs",
+              "RelativeDocumentMoniker": "Questions\\MTS.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Projects\\Web Assembly Projects\\Vicolraj\\Questions\\MTS.cs",
+              "RelativeToolTip": "Questions\\MTS.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T14:47:40.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddressBinder.cs",
+              "DocumentMoniker": "C:\\Users\\User\\AppData\\Local\\Temp\\.vsdbgsrc\\44aa595dc2a1078aa662bebf92f46ec0aa83d37961bfc5ec1f12f1b995219153\\AddressBinder.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\44aa595dc2a1078aa662bebf92f46ec0aa83d37961bfc5ec1f12f1b995219153\\AddressBinder.cs",
+              "ToolTip": "C:\\Users\\User\\AppData\\Local\\Temp\\.vsdbgsrc\\44aa595dc2a1078aa662bebf92f46ec0aa83d37961bfc5ec1f12f1b995219153\\AddressBinder.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\44aa595dc2a1078aa662bebf92f46ec0aa83d37961bfc5ec1f12f1b995219153\\AddressBinder.cs",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAAwK4AAAADAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T09:15:51.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CSC.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Projects\\Web Assembly Projects\\Vicolraj\\Questions\\CSC.cs",
+              "RelativeDocumentMoniker": "Questions\\CSC.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Projects\\Web Assembly Projects\\Vicolraj\\Questions\\CSC.cs",
+              "RelativeToolTip": "Questions\\CSC.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T22:17:50.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Projects\\Web Assembly Projects\\Vicolraj\\_Imports.razor",
+              "RelativeDocumentMoniker": "_Imports.razor",
+              "ToolTip": "C:\\Users\\User\\Documents\\Projects\\Web Assembly Projects\\Vicolraj\\_Imports.razor",
+              "RelativeToolTip": "_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-16T22:36:56.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Question.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Projects\\Web Assembly Projects\\Vicolraj\\Questions\\Question.cs",
+              "RelativeDocumentMoniker": "Questions\\Question.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\Projects\\Web Assembly Projects\\Vicolraj\\Questions\\Question.cs",
+              "RelativeToolTip": "Questions\\Question.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T22:16:20.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Projects\\Web Assembly Projects\\Vicolraj\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\User\\Documents\\Projects\\Web Assembly Projects\\Vicolraj\\Pages\\Home.razor",
+              "RelativeToolTip": "Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-08T16:47:34.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Quiz.razor",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Projects\\Web Assembly Projects\\Vicolraj\\Pages\\Quiz.razor",
+              "RelativeDocumentMoniker": "Pages\\Quiz.razor",
+              "ToolTip": "C:\\Users\\User\\Documents\\Projects\\Web Assembly Projects\\Vicolraj\\Pages\\Quiz.razor",
+              "RelativeToolTip": "Pages\\Quiz.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-08T16:51:12.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Projects\\Web Assembly Projects\\Vicolraj\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\User\\Documents\\Projects\\Web Assembly Projects\\Vicolraj\\wwwroot\\index.html",
+              "RelativeToolTip": "wwwroot\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-01-09T13:54:19.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Projects\\Web Assembly Projects\\Vicolraj\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\User\\Documents\\Projects\\Web Assembly Projects\\Vicolraj\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-10T05:27:37.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MainLayout.razor.css",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Projects\\Web Assembly Projects\\Vicolraj\\Layout\\MainLayout.razor.css",
+              "RelativeDocumentMoniker": "Layout\\MainLayout.razor.css",
+              "ToolTip": "C:\\Users\\User\\Documents\\Projects\\Web Assembly Projects\\Vicolraj\\Layout\\MainLayout.razor.css",
+              "RelativeToolTip": "Layout\\MainLayout.razor.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-08T16:49:12.698Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

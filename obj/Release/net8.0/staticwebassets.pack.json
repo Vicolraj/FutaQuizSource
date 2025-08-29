@@ -1,0 +1,97 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\User\\Documents\\Projects\\Web Assembly Projects\\FutaQuiz\\bin\\Release\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\Projects\\Web Assembly Projects\\FutaQuiz\\obj\\Release\\net8.0\\scopedcss\\bundle\\FutaQuiz.styles.css",
+      "PackagePath": "staticwebassets\\FutaQuiz.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\Projects\\Web Assembly Projects\\FutaQuiz\\wwwroot\\boxicons\\css\\animations.css",
+      "PackagePath": "staticwebassets\\boxicons\\css\\animations.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\Projects\\Web Assembly Projects\\FutaQuiz\\wwwroot\\boxicons\\css\\boxicons.css",
+      "PackagePath": "staticwebassets\\boxicons\\css\\boxicons.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\Projects\\Web Assembly Projects\\FutaQuiz\\wwwroot\\boxicons\\css\\boxicons.min.css",
+      "PackagePath": "staticwebassets\\boxicons\\css\\boxicons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\Projects\\Web Assembly Projects\\FutaQuiz\\wwwroot\\boxicons\\css\\transformations.css",
+      "PackagePath": "staticwebassets\\boxicons\\css\\transformations.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\Projects\\Web Assembly Projects\\FutaQuiz\\wwwroot\\boxicons\\fonts\\boxicons.eot",
+      "PackagePath": "staticwebassets\\boxicons\\fonts\\boxicons.eot"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\Projects\\Web Assembly Projects\\FutaQuiz\\wwwroot\\boxicons\\fonts\\boxicons.svg",
+      "PackagePath": "staticwebassets\\boxicons\\fonts\\boxicons.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\Projects\\Web Assembly Projects\\FutaQuiz\\wwwroot\\boxicons\\fonts\\boxicons.ttf",
+      "PackagePath": "staticwebassets\\boxicons\\fonts\\boxicons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\Projects\\Web Assembly Projects\\FutaQuiz\\wwwroot\\boxicons\\fonts\\boxicons.woff",
+      "PackagePath": "staticwebassets\\boxicons\\fonts\\boxicons.woff"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\Projects\\Web Assembly Projects\\FutaQuiz\\wwwroot\\boxicons\\fonts\\boxicons.woff2",
+      "PackagePath": "staticwebassets\\boxicons\\fonts\\boxicons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\Projects\\Web Assembly Projects\\FutaQuiz\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\Projects\\Web Assembly Projects\\FutaQuiz\\wwwroot\\css\\changa-regular.ttf",
+      "PackagePath": "staticwebassets\\css\\changa-regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\Projects\\Web Assembly Projects\\FutaQuiz\\wwwroot\\css\\jostregular.ttf",
+      "PackagePath": "staticwebassets\\css\\jostregular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\Projects\\Web Assembly Projects\\FutaQuiz\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\Projects\\Web Assembly Projects\\FutaQuiz\\wwwroot\\icon-512.png",
+      "PackagePath": "staticwebassets\\icon-512.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\Projects\\Web Assembly Projects\\FutaQuiz\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\Projects\\Web Assembly Projects\\FutaQuiz\\wwwroot\\manifest.webmanifest",
+      "PackagePath": "staticwebassets\\manifest.webmanifest"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.FutaQuiz.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.FutaQuiz.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.FutaQuiz.props",
+      "PackagePath": "build\\FutaQuiz.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.FutaQuiz.props",
+      "PackagePath": "buildMultiTargeting\\FutaQuiz.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.FutaQuiz.props",
+      "PackagePath": "buildTransitive\\FutaQuiz.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

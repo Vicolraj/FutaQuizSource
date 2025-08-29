@@ -1,0 +1,53 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = Vicolraj
+build_property.RootNamespace = Vicolraj
+build_property.ProjectDir = C:\Users\User\Documents\Projects\Web Assembly Projects\Vicolraj\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = false
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\User\Documents\Projects\Web Assembly Projects\Vicolraj
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/User/Documents/Projects/Web Assembly Projects/Vicolraj/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/Projects/Web Assembly Projects/Vicolraj/Pages/QuizPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUXVpelBhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/Projects/Web Assembly Projects/Vicolraj/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/Projects/Web Assembly Projects/Vicolraj/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-s0fl6us8u9
+
+[C:/Users/User/Documents/Projects/Web Assembly Projects/Vicolraj/Layout/NavBar.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdkJhci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-vkizvzovyo
+
+[C:/Users/User/Documents/Projects/Web Assembly Projects/Vicolraj/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-i4tyjl6d47
+
+[C:/Users/User/Documents/Projects/Web Assembly Projects/Vicolraj/Pages/Quiz.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUXVpei5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-rb5yw3c0vi

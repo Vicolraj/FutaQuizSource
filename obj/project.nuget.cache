@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "K6GQMxukO/g=",
+  "success": false,
+  "projectFilePath": "C:\\Users\\User\\Documents\\Projects\\Web Assembly Projects\\FutaQuiz\\FutaQuiz.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.\r\n  No such host is known. (api.nuget.org:443)\r\n  No such host is known.",
+      "libraryId": "Microsoft.NET.ILLink.Tasks"
+    },
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json."
+    }
+  ]
+}

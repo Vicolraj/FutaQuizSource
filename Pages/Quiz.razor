@@ -1,0 +1,412 @@
+﻿@page "/quiz/{courseCode}"
+@using FutaQuiz.Questions
+
+
+
+
+<style>
+    header {
+    background: var(--quiz-accent);
+    height: 50px;
+    color: white;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 25px;
+    width: 100%;
+    position: fixed;
+    padding: 10px;
+    top: 0;
+    box-shadow: 0px 0px 10px 1px black;
+    }
+
+    .mainContainer {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    background: var(--quiz-bg);
+    }
+
+    .quest-container {
+    color: white;
+    padding: 10px;
+    width: 100%;
+    max-width: 600px;
+    }
+
+    .each-question input {
+    display: none;
+    }
+
+    .AnsList {
+    display: grid;
+    gap: 5px;
+    width: 100%;
+    }
+
+    label {
+    width: 100%;
+    min-height: 35px;
+    height: max-content;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    background: white;
+    }
+
+    .AnsList > li {
+    width: 100%;
+    max-width: 600px;
+    min-height: 35px;
+    height: max-content;
+    color: black;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    }
+
+    input[type = "radio"]:checked + * {
+    color: white;
+    background: var(--quiz-accent);
+    }
+
+    .doneContainer {
+    width: 100vw;
+    left: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    }
+
+    .done {
+    background: green;
+    width: 100%;
+    max-width: 600px;
+    height: 40px;
+    font-size: 1em;
+    box-shadow: 0px 0px 10px 1px black;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    }
+</style>
+
+<style>
+    .nfContainer{
+    background: black;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vw;
+    text-align: center;
+    }
+</style>
+
+@if(SelectedQuestion!.Count < 1)
+{
+    <section class="nfContainer">This page is under development <br/> Come back later</section>
+}
+
+else {
+
+    <style>
+        .dialogContainer{
+        height: 100vh;
+        width: 100vw;
+        overflow: hidden;
+        position: fixed;
+        background: rgba(0,0,0,0.6);
+        backdrop-filter: blur(15px);
+        justify-content: center;
+        color: white;
+        align-items: center;
+        z-index: 200;
+        }
+
+        .dialogContainer >  *{
+        width: 70vw;
+        max-width: 500px;
+        aspect-ratio: 1/1;
+        background: rgba(200,200,225);
+        color: black;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 0px 10px 1px black;
+        border-radius: 10px;
+        }
+
+        .dialogContainer > * > * > button{
+        width: 150px;
+        font-size: 1.25em;
+        aspect-ratio: 4/1;
+        }
+    </style>
+
+    <section style="display: @firstDisplay" class="dialogContainer" >
+        <div>
+            <article>
+                <h1 style="color: var(--quiz-accent); font-size: 30px; text-shadow: 0px 0px 2px black">@SelectedQuestion[0].CourseCode</h1>
+                <p>Max Question: @SelectedQuestion.Count</p>
+                <p>Duration: @($"{maxTime}:00")</p>
+                <br />
+                <label style="font-size: 10px;  background: none">
+                    Number of question &nbsp;
+                    <input style="width: 40px;"
+                    type="number"
+                    placeholder="10"
+                    max="@SelectedQuestion.Count"
+                    @bind="totalNumbersOfQuestions"
+                    @bind:after="UpdateTime"/></label>
+                <label style="background: none; font-size: 12px;margin-top: -15px;" for="studyOrTextMode">Study Mode: <input id="studyOrTextMode" @onclick="() => isStudyMode = !isStudyMode" type="checkbox" checked="@isStudyMode" /> @isStudyMode</label>
+                <button @onclick="Start">Start</button>
+
+
+
+            </article>
+        </div>
+    </section>
+
+
+
+    <section style="display: @secondDisplay" class="dialogContainer">
+        <div>
+            <article>
+                <h1 style="color: var(--quiz-accent); font-size: 30px; text-shadow: 0px 0px 2px black">@score of @totalNumbersOfQuestions</h1>
+                <p>used @($"{usedTime.ToString("mm")}:{usedTime.ToString("ss")}") of @($"{maxTime}:00")</p>
+                <br />
+                <button @onclick="@(() => secondDisplay = "none")">Ok</button>
+            </article>
+        </div>
+    </section>
+
+    <section class="mainContainer">
+
+        <header >
+            <p> @SelectedQuestion![0].CourseCode </p> <p style="font-size: 22px; font-weight: normal; display: @(isStudyMode  ? "none" : "auto");">@(maxTime + ":00")/@($"{usedTime.ToString("mm")}:{usedTime.ToString("ss")}")</p>
+        </header>
+
+        <section class="quest-container">
+            <p>
+                @totalNumbersOfQuestions @(totalNumbersOfQuestions > 1 ? "Questions" : "Question")<br />
+
+                <em style="text-align: center;">Questions are randomly generated.</em>
+            </p>
+            <br />
+
+            @foreach (var k in SelectedQuestion!)
+            {
+
+                if (k.QuestionIndexer == 10) // Only set it if not already set
+                {
+                    k.QuestionIndexer = new Random().Next(k.QuestionsList!.Count);
+                }
+
+                if (SelectedQuestion.IndexOf(k) == totalNumbersOfQuestions)
+                {
+                    break;
+                }
+
+
+
+                <div class="each-question" @onclick="Update">
+                    <p> @(SelectedQuestion.IndexOf(k) + 1). @((MarkupString)k.QuestionsList![k.QuestionIndexer].StrQuestion!)</p>
+                    <ul class="AnsList">
+                        @foreach (var arrStr in k.QuestionsList![k.QuestionIndexer].Options!)
+                        {
+
+                            if (k.QuestionsList![k.QuestionIndexer].Answer == arrStr || arrStr.StartsWith(k.QuestionsList![k.QuestionIndexer].Answer + ")"))
+                            {
+                                <li @onclick="@(() => k.QuestionsList![k.QuestionIndexer].Score = 1)">
+                                    <input type="radio" name="group@(SelectedQuestion.IndexOf(k))" id="@($"{arrStr}{SelectedQuestion.IndexOf(k)}")" />
+                                    <label style="background: @CorrectColor" for="@($"{arrStr}{SelectedQuestion.IndexOf(k)}")">@arrStr</label>
+                                </li>
+                            }
+                            else
+                            {
+                                <li @onclick="@(() => k.QuestionsList![k.QuestionIndexer].Score = 0)">
+                                    <input type="radio" name="group@(SelectedQuestion.IndexOf(k))" id="@($"{arrStr}{SelectedQuestion.IndexOf(k)}")" />
+                                    <label for="@($"{arrStr}{SelectedQuestion.IndexOf(k)}")">@arrStr</label>
+                                </li>
+                            }
+                        }
+                    </ul>
+
+                </div>
+                //ADVERTISMENT BELOW WAS GOTTEN FROM ADSTERRA
+                if((SelectedQuestion.IndexOf(k) + 1) % 10 == 0){
+                    <div class="normalAds">
+                        <script type="text/javascript">
+                            atOptions = {
+                            'key': 'db03b628ca370f39c7a0c9b0c3410f8e',
+                            'format': 'iframe',
+                            'height': 60,
+                            'width': 468,
+                            'params': {}
+                            };
+                        </script>
+                        <script type="text/javascript" src="//www.topcreativeformat.com/db03b628ca370f39c7a0c9b0c3410f8e/invoke.js">
+                        </script>
+                    </div>
+                }
+
+                <br />
+
+
+
+            }
+            <br />
+            <br />
+            <div class="doneContainer">
+                <button class="done" @onclick="Done">@nameof(Done)</button>
+            </div>
+
+        </section>
+    </section>
+}
+
+@code {
+    List<QuestionPreset>? SelectedQuestion = new List<QuestionPreset>();
+
+    [Parameter]
+    public string? courseCode { get; set; }
+    public string CorrectColor = "var(--quiz - accent)";
+    private int score;
+    string firstDisplay = "flex";
+    string secondDisplay = "none";
+    int totalNumbersOfQuestions = 0;
+    static bool isStudyMode;
+    int maxTime; 
+    TimeSpan usedTime;  
+    DateTime dateTime = DateTime.Now;
+    static Timer? countdownTimer;          
+    static bool runTimer = isStudyMode;
+    bool doneClicked = false;
+
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        TimeSetter();
+        countdownTimer = new Timer(TimerMethod!, null, 0, 1000);
+    }
+
+    void Update()
+    {
+        if (doneClicked is false)
+        {
+            score = SelectedQuestion!.Sum(x => x.QuestionsList!.Sum(q => q.Score));
+            doneClicked = true;
+        }
+    }
+
+    void Start()
+    {
+        firstDisplay = "none";
+        dateTime = (!runTimer) ? DateTime.Now : dateTime;
+        runTimer = !isStudyMode;
+        if(totalNumbersOfQuestions == 0 || totalNumbersOfQuestions < 0 || totalNumbersOfQuestions > SelectedQuestion!.Count)
+        {
+            totalNumbersOfQuestions = SelectedQuestion!.Count;
+        }
+
+        TimeSetter();
+    }
+
+    void TimerMethod(object x)
+    {
+        if (runTimer)
+        {
+            if (usedTime.Minutes != maxTime || usedTime.Minutes < maxTime)
+            {
+                usedTime = DateTime.Now - dateTime;
+            }
+            else
+            {
+                runTimer = false;
+                Done();
+            }
+        }
+        StateHasChanged();
+    }
+
+    void Done()
+    {
+        secondDisplay = "flex";
+        CorrectColor = "var(--quiz-correct-ans)";
+        runTimer = false;        
+    }
+
+
+    void CalMaxTime(int bonustime)
+    {
+        maxTime = (totalNumbersOfQuestions / 3) + bonustime;
+    }
+
+    void UpdateTime()
+    {
+        TimeSetter();
+        StateHasChanged();
+    }
+
+
+    void TimeSetter(){
+        if (courseCode!.ToLower().Contains("csc"))
+        {
+            SelectedQuestion = CSC.GetQuestion(courseCode!);
+            CalMaxTime(CSC.BonusTime);
+        }
+        else if (courseCode!.ToLower().Contains("mts"))
+        {
+            SelectedQuestion = MTS.GetQuestion(courseCode!);
+            if (courseCode.Contains("20"))
+            {
+                CalMaxTime(10 + (MTS.BonusTime));
+            }
+            else if (courseCode.Contains("10"))
+            {
+                CalMaxTime(15 + (MTS.BonusTime));
+            }
+            else
+            {
+                CalMaxTime(MTS.BonusTime);
+            }
+        }
+        else if (courseCode!.ToLower().Contains("che"))
+        {
+            SelectedQuestion = CHE.GetQuestion(courseCode!);
+            CalMaxTime(CHE.BonusTime);
+        }
+        else if (courseCode!.ToLower().Contains("bio"))
+        {
+            SelectedQuestion = BIO.GetQuestion(courseCode!);
+            CalMaxTime(BIO.BonusTime);
+        }
+        else if (courseCode!.ToLower().Contains("phy"))
+        {
+            SelectedQuestion = PHY.GetQuestion(courseCode!);
+            if(courseCode.Contains("101")){
+                CalMaxTime(PHY.BonusTime + 10);
+            }
+            else{
+                CalMaxTime(PHY.BonusTime);
+            }
+        }
+        else if (courseCode!.ToLower().Contains("gns"))
+        {
+            SelectedQuestion = GNS.GetQuestion(courseCode!);
+            CalMaxTime(GNS.BonusTime);
+        }
+    }
+   
+}

@@ -1,0 +1,16 @@
+wwwroot\boxicons\css\animations.css
+wwwroot\boxicons\css\boxicons.css
+wwwroot\boxicons\css\boxicons.min.css
+wwwroot\boxicons\css\transformations.css
+wwwroot\boxicons\fonts\boxicons.eot
+wwwroot\boxicons\fonts\boxicons.svg
+wwwroot\boxicons\fonts\boxicons.ttf
+wwwroot\boxicons\fonts\boxicons.woff
+wwwroot\boxicons\fonts\boxicons.woff2
+wwwroot\css\app.css
+wwwroot\css\changa-regular.ttf
+wwwroot\css\jostregular.ttf
+wwwroot\icon-192.png
+wwwroot\icon-512.png
+wwwroot\index.html
+wwwroot\manifest.webmanifest
